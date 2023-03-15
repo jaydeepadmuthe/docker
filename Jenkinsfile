@@ -10,7 +10,7 @@ stages {
 
 		stage ("on master"){
 			steps {
-					sh "docker cp /data/pipeline/index.html q1:/usr/local/apache2/htdocs/"
+					sh "docker cp /data3/pipeline/index.html q3:/usr/local/apache2/htdocs/"
 			}
 		
 		}
